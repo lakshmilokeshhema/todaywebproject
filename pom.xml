@@ -68,12 +68,12 @@
       <snapshotRepository>
         <id>nexus</id>
         <name>devops</name>
-	<url>http://localhost:8081/repository/today/</url>
+	<url>http://3.7.254.251:8081/repository/novbatch/</url>
       </snapshotRepository>
       <repository>
         <id>nexus</id>
         <name>devops markonda</name>
-	<url>http://localhost:8081/repository/today/</url>
+	<url>http://3.7.254.251:8081/repository/novbatch/</url>
       </repository>	
    </distributionManagement>
   
