@@ -40,7 +40,7 @@ pipeline{
         stage('artifact is storing into local repo .m2'){
             steps{
                 
-                sh 'mvn install'
+                sh 'mvn sonar:sonar'
             
                 
                 }
