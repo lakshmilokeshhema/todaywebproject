@@ -4,7 +4,7 @@ pipeline{
         stage('scm check out'){
             steps{
                 
-                git branch: 'dev', url: 'https://github.com/lakshmilokeshhema/todaywebproject.git'
+                git branch: 'test', url: 'https://github.com/lakshmilokeshhema/todaywebproject.git'
             }
         }
         stage('scm validate'){
